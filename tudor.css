@@ -1,0 +1,233 @@
+:root{
+    max-width:100%;
+    background-image: url('Glass.jpg');
+    --text-colour--:black;
+    --borders--:yellow;
+    --backgrounds--:red;
+    --text-backgrounds:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+td, th {
+    vertical-align: middle;
+    border-right: 1px solid var(--text-colour--);
+    border-left: 1px solid var(--text-colour--);
+    border-bottom: 1px solid var(--text-colour--);
+} 
+
+#intro a{
+    background-color:var(--text-backgrounds) ;
+}
+p+a{
+    background-color:var(--text-backgrounds) ;
+}
+
+h2{
+    border-bottom: var(--text-colour--) dotted;
+    
+    
+    clear:both;
+}
+header{
+    padding:2em;
+    background-color:var(--backgrounds--);
+    border-radius:1em;
+}
+table{
+    border:1em var(--borders--) solid;
+    background-color:var(--text-backgrounds);
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 2em;;
+    margin-top:2em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1{
+    
+    text-align:center;
+    font-size:3em;
+    font-family: Unifraktur Maguntia,'Times New Roman', 'Cambria, Cochin', Georgia, Times, 'Times New Roman', 'serif';
+}
+h2, h3{
+    padding:0.5em;
+    background-color:var(--text-backgrounds);
+    
+    text-align:center;
+    display:inline-block;
+    font-family: Unifraktur Maguntia;
+}
+figure{
+    display:block;
+    text-align:center;
+    column-gap:normal;
+    column-count:3;
+    break-inside: avoid;
+    float:left;
+
+}
+
+#intro figure{
+    text-align:center;
+}
+#wives figure{
+    column-gap:normal;
+    column-count:2;
+    break-inside: avoid;
+}
+p{ 
+    margin-left:2em;
+    border:var(--borders--) solid 0.5em;
+    padding:2em;
+    background-color:var(--text-backgrounds);
+    border-radius:1em; 
+    font-family:'Times New Roman', 'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif 
+    
+}
+@media screen and (min-width:320px){
+    body{
+        font-size:140%
+    }
+}
+@media screen and (max-width:480px){
+    body{
+        font-size:140%
+    }
+}
+@media screen and (min-width:600px){
+    body{
+        font-size:130%
+    }
+}
+
+@media screen and (min-width:768px){
+    body{
+        font-size:120%
+    }
+}
+@media screen and (max-width:1024px){
+    body{
+        font-size:120%
+    }
+}
+
+@viewport {  
+    width: device-width;
+} 
+    
+#intro>img{
+   
+    float:left;
+    margin-right:2em
+}
+#wives>p{
+    column-gap:normal;
+    column-count:1; 
+    break-inside: avoid;
+}
+img{
+    margin-top:1em;
+    max-width:100%;
+    margin-right:2em;
+    border:var(--borders--) solid;
+}
+nav{
+    text-align:center;
+}
+nav ul{
+    display:inline-block;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    box-sizing:border-box;       
+}
+nav a{
+	display:block;
+	text-decoration: none;
+    
+}
+@media (hover: hover){
+    #homepage li:hover{
+    background-color:var(--borders--);
+    padding:1em;
+    }
+}
+@media (hover: hover){
+    li:hover{
+    background-color:var(--borders--);
+    
+    }
+}
+
+
+#homepage nav li{
+    
+    display:inline-block;
+    text-align:center;
+    list-style:none;
+    font-size:larger;
+    
+    flex:1;
+    border-radius:1em;
+    margin: 0 1rem;
+    margin-bottom:2em;
+    padding:2em;
+    width:fit-content;
+    text-decoration: none;
+}  
+nav li{
+    display:inline-block;
+    background-color:var(--text-backgrounds);
+    list-style:none;
+    font-size:larger;
+    flex:1;
+    border:3px solid var(--borders--);
+    margin: 0 1rem;
+    margin-bottom:2em;
+    padding:0.5em;
+    width:fit-content;
+    text-decoration: none;
+}
+footer{
+    padding:1em;
+    background-color:var(--backgrounds--);
+    border-radius:0.5em;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+footer>p{
+    background-color:var(--backgrounds--);
+    border:var(--backgrounds--) solid;
+}
+
+        
+    
+
+
+header p{
+    
+    display:inline;
+    text-align:center;
+}
+
+#wives>p>p>p{
+    margin-bottom:30%;
+}
+
+
+@font-face{
+    font-family: Unifraktur Maguntia;
+    src:url('UnifrakturMaguntia-Regular.ttf');
+}
+
+
+
+
+#homepage>header{
+    width:100%;
+}
+
