@@ -5,3 +5,5 @@ The homepage makes use of CSS to change the size and background colour of a menu
 
 ![image](https://github.com/EimearKingston/HTML-Webpage/assets/144938447/f8f2f549-9e04-4136-b002-e8141617ebb7)
 
+![image](https://github.com/EimearKingston/HTML-Webpage/assets/144938447/d859390b-f69e-466a-b794-5235c09527c4)
+
