@@ -11,3 +11,7 @@ The menu appears thereafter in the header once any other page of the website is 
 and to install a specific font to the text. 
 
 ![image](https://github.com/EimearKingston/HTML-Webpage/assets/144938447/fc775570-3eea-4475-a9dd-bd0b1fb28b94)
+
+A link is found at the bottom of each page which returns the user back to the top of the page when pressed so as to avoid excessive scrolling.  
+
+![image](https://github.com/EimearKingston/HTML-Webpage/assets/144938447/ccfdd7ec-dbf5-4952-85de-bff3a1e80bd1)
